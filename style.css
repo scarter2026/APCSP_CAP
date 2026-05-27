@@ -1,5 +1,5 @@
 body{
-  background-color: mediumpurple
+  background-color: mediumpurple;
 }
 .center{
   display: flex;
@@ -13,9 +13,12 @@ body{
 }
 
 .p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Comic Sans MS",monospace;
 }
-
+.p2 {
+  font-family: "Comic Sans MS", monospace;
+  font-size: 20px;
+}
 body {
   margin: 0;
   padding: 0;
