@@ -18,7 +18,7 @@ body{
   display: flex; /* Aligns children side-by-side */
    /* Keeps items at the top */
   gap: 20px; /* Space between the image and text */
-  align-items: center;
+  align-items: left;
 }
 
 .p3 {
