@@ -5,11 +5,13 @@ body{
   display: flex;
   justify-content: center;
   font-size: 100px;
+  align-items: center;
 }
 
 .container {
-  font-size: 50px;
-  padding: 10px;
+  display: flex; /* Aligns children side-by-side */
+  align-items: flex-start; /* Keeps items at the top */
+  gap: 20px; /* Space between the image and text */
 }
 
 .p3 {
