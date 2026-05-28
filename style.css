@@ -12,6 +12,7 @@ body{
   display: flex; /* Aligns children side-by-side */
   align-items: flex-start; /* Keeps items at the top */
   gap: 20px; /* Space between the image and text */
+  align-items: center;
 }
 
 .p3 {
