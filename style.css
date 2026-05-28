@@ -1,5 +1,11 @@
 body{
   background-color: mediumpurple;
+  border-style: dotted;
+  border-color:lightblue;
+  border-bottom-width: thick;
+  border-top-width: thick;
+  border-left-width: thick;
+  border-right-width: thick;
 }
 .center{
   display: flex;
@@ -10,21 +16,23 @@ body{
 
 .container {
   display: flex; /* Aligns children side-by-side */
-  align-items: flex-start; /* Keeps items at the top */
+   /* Keeps items at the top */
   gap: 20px; /* Space between the image and text */
   align-items: center;
 }
 
 .p3 {
   font-family: "Comic Sans MS",monospace;
+  align-items: center;
 }
 .p2 {
   font-family: "Comic Sans MS", monospace;
   font-size: 20px;
+  align-items: center;
 }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 20;
 }
 
 h2, p {
@@ -54,4 +62,7 @@ ul li a {
 
 ul li a:hover {
   background-color: mediumpurple;
+}
+.iframe{
+  align-items: center;
 }
