@@ -63,7 +63,13 @@ ul li a {
 ul li a:hover {
   background-color: mediumpurple;
 }
-.iframe{
-  align-items: center;
-  justify-content: center;
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.project-container iframe {
+    max-width: 100%;
 }
